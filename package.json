@@ -8,14 +8,14 @@
   "license": "UNLICENSED",
   "private": false,
   "devDependencies": {
-    "typescript": "^5.1.*"
+    "typescript": "^5.1.6"
   },
   "dependencies": {
     "vitest": "^0.32.4",
     "zod": "^3.21.4"
   },
   "scripts": {
-    "test": "vitest src/test/*.test.{ts,js}",
+    "test": "vitest",
     "typecheck": "tsc"
   }
 }

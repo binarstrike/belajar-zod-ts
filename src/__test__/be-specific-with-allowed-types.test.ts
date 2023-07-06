@@ -3,18 +3,15 @@
 import { expect, it } from "vitest";
 import { z } from "zod";
 
-enum Visibility {
-  PUBLIC = "public",
-  PRIVATE = "private",
-}
-
 const Form = z.object({
   repoName: z.string(),
-  //! privacyLevel: z.string(),
-  //* privacyLevel: z.enum(["private", "public"]),
-  //* privacyLevel: z.nativeEnum(Visibility),
-  privacyLevel: z.nativeEnum(Visibility),
+  //! privacyLevel: z.string()
+  // privacyLevel: z.enum(["private", "public"]), //* ini sama saja seperti z.union() dengan z.literal(), lebih singkat
+  privacyLevel: z.union([z.literal("private"), z.literal("public")]),
 });
+
+type FormType = z.infer<typeof Form>;
+//      ^?
 
 //* tujuan dari test ini adalah bagaimana cara agar zod dapat memiliki tipe yang telah ditetapkan sebelumnya,
 //* jika pada typescript bisa menggunakan union type

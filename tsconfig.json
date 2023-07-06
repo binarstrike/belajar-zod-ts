@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ESNext",
+    "emitDeclarationOnly": false,
+    "noEmit": false,
+    "strict": true,
+    "baseUrl": "src/"
+  }
+}

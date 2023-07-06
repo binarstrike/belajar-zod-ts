@@ -1,0 +1,21 @@
+{
+  "name": "belajar-zod-ts",
+  "version": "1.0.0",
+  "description": "Belajar tentang cara menggunakan library Zod untuk validasi tipe data pada typescript",
+  "main": "index.js",
+  "repository": "https://github.com/binarstrike/belajar-zod-ts.git",
+  "author": "Binar Nugroho <binarnugroho775@gmail.com>",
+  "license": "UNLICENSED",
+  "private": false,
+  "devDependencies": {
+    "typescript": "^5.1.*"
+  },
+  "dependencies": {
+    "vitest": "^0.32.4",
+    "zod": "^3.21.4"
+  },
+  "scripts": {
+    "test": "vitest src/test/*.test.{ts,js}",
+    "typecheck": "tsc"
+  }
+}

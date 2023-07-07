@@ -5,7 +5,8 @@
     "emitDeclarationOnly": false,
     "noEmit": true,
     "strict": true,
-    "baseUrl": "./src"
+    "baseUrl": "./src",
+    "rootDir": "./src"
   },
   "exclude": [
     "node_modules",

@@ -1,6 +1,8 @@
 {
     "recommendations": [
         "orta.vscode-twoslash-queries",
-        "zixuanchen.vitest-explorer"
+        "zixuanchen.vitest-explorer",
+        "aaron-bond.better-comments",
+        "ms-vscode.vscode-typescript-next"
     ]
 }

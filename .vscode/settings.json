@@ -6,5 +6,6 @@
     },
     "editor.fontFamily": "JetBrains Mono SemiBold",
     "editor.fontSize": 13,
-    "typescript.tsdk": "node_modules\\typescript\\lib"
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "editor.inlayHints.enabled": "on"
 }

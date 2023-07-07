@@ -3,6 +3,7 @@
         "orta.vscode-twoslash-queries",
         "zixuanchen.vitest-explorer",
         "aaron-bond.better-comments",
-        "ms-vscode.vscode-typescript-next"
+        "ms-vscode.vscode-typescript-next",
+        "esbenp.prettier-vscode"
     ]
 }
